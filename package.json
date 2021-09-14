@@ -1,6 +1,6 @@
 {
   "name": "path-crawler",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "description": "An utility to crawl generic objects paths",
   "main": "./cjs/index.js",
   "scripts": {
