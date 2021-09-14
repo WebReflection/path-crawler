@@ -25,7 +25,7 @@ jobs:
     - run: npm ci
     - run: npm run build --if-present
     - run: npm test
-    - run: npm run coveralls --if-present
+    - run: npm run coveralls
     - name: Coveralls
       uses: coverallsapp/github-action@master
       with:

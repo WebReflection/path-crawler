@@ -1,5 +1,7 @@
 # path-crawler
 
+![build status](https://github.com/WebReflection/path-crawler/actions/workflows/node.js.yml/badge.svg) [![Coverage Status](https://coveralls.io/repos/github/WebReflection/path-crawler/badge.svg?branch=main)](https://coveralls.io/github/WebReflection/path-crawler?branch=main)
+
 An utility to crawl generic objects paths.
 
 ```js
