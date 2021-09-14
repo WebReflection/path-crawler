@@ -6,7 +6,7 @@
   "scripts": {
     "build": "npm run cjs && npm run test",
     "cjs": "ascjs esm cjs",
-    "coveralls": "c8 report --reporter=text-lcov > ./coverage/lcov.info",
+    "coverage": "c8 report --reporter=text-lcov > ./coverage/lcov.info",
     "test": "c8 node test/index.js"
   },
   "keywords": [
@@ -19,8 +19,7 @@
   "license": "ISC",
   "devDependencies": {
     "ascjs": "^5.0.1",
-    "c8": "^7.9.0",
-    "coveralls": "^3.1.1"
+    "c8": "^7.9.0"
   },
   "module": "./esm/index.js",
   "type": "module",
